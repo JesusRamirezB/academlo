@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Alejandra">
+  <title>Etiquetas HTML</title>
+</head>
+<body>
+  <!-- Etiquetas de Estructura de HTML -->
+  <header>
+    <!-- Header: Cabecera -->
+    <nav>
+      <!-- Navegación: Menu de navegación -->
+      <div>
+        <a href="">Logo</a>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="">Inicio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <hr>
+  <!-- hr : Divide secciones mediante una línea  -->
+  <br>
+  <br>
+  <!-- br: Otorga un salto de línea  -->
+
+  <main>
+    <!-- Importante: Main contiene todo el contenido importante de la página -->
+    <h1>Aprendiendo HTML</h1>
+    <section>
+      <!-- Sección: Contiene elementos que se repiten-->
+      <h2>Primer contenido</h2>
+      <article>
+          <!-- Article: Contiene elementos dentro de seccion  -->
+        <h3>Soy el subtítulo de primer contenido</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, velit dolorum est omnis et obcaecati amet officia delectus similique, tempore soluta libero earum. Magni amet ipsum doloremque ut voluptatem unde.
+        </p>
+      </article>
+      <article>
+        <h3>Soy el segundo subtítulo del primer contenido</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum unde animi a molestiae quisquam, quaerat sit, sint, eaque porro vitae dolore ipsa pariatur totam corrupti ut adipisci quas. Asperiores, officia.</p>
+      </article>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Cabeceras y titulares</h2>
+
+      <!-- <h1>H1 - heading</h1> -->
+      <!-- Importante: Es el encabezado principal y unicamente se utiliza una vez  -->
+      <h2>H2 - heading</h2>
+      <!-- h2: suele utilizarse en subtitulos  -->
+      <h3>H3 - heading</h3>
+      <!-- h3: suele utilizarse para títulos de subtemas  -->
+      <h4>H4 - heading</h4>
+      <h5>H5 - heading</h5>
+      <h6>H6 - heading</h6>
+      <!-- Importante: h4,h5,h6 no se recomienda utilizarlos, ya que le dictan al SEO que se trata de contenido muy profundo en el documento y afecta al SEO  -->     
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Párrafos</h2>
+      <p>
+        <!-- Parrafo: Contiene una frase o una oración. -->
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, minus illum. Dolor, nemo delectus fugiat recusandae quidem libero esse mollitia saepe culpa praesentium iusto soluta voluptatum quibusdam aspernatur nisi nam.
+      </p>
+      <article>
+        <h3>Cursiva, nregrita y subrayado</h3>
+        <p>Lorem ipsum <u>dolor</u> sit amet <i>consectetur</i> consectetur adipisicing elit. Error, a eius quas <b>dignissimos</b> temporibus consectetur amet minus commodi quae qui tenetur nostrum eveniet ea sit ullam ipsam mollitia perferendis ratione.</p>
+      </article>
+      <article>
+        <h3>Énfasis e importancia</h3>
+        <p>Lorem ipsum dolor sit amet <strong>importante</strong> consectetur adipisicing elit. Quo doloribus <em>emphasis</em> sapiente veniam illum fugit, magni harum eaque. Labore <mark>marcador</mark> exercitationem et alias maiores? Quae praesentium ratione ab odit, deleniti quam fuga?</p>
+      </article>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Caracteres especiales</h2>
+      <ul>
+        <li>&nbsp; &nbsp; &nbsp; Espacio</li>
+        <li>&#60; Menor que </li>
+        <li>&#62; Mayor que </li>
+        <li>&#169; Copyright</li>
+        <li>&#174; Marca registrada</li>
+        <li>&#8482; Trade Mark</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Listas</h2>
+      <article>
+        <h3>Listas desordenadas</h3>
+
+        <ul type="square">
+          <li>Lista 1</li>
+          <li>Lista 1</li>
+          <li>Lista 1</li>
+          <li>Lista 1</li>
+          <li>Lista 1</li>
+          <li>Lista 2</li>
+          <li>Lista 3</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Listas Ordenadas</h3>
+
+        <ol start="10" reversed>
+          <li>Lista 1</li>
+          <li>Lista 2</li>
+          <li>Lista 3</li>
+          <li>Lista 4</li>
+          <li>Lista 5</li>
+        </ol>
+      </article>
+      <article>
+        <h3>Listas de Definición</h3>
+        <dl>
+          <dt>Ejemplo 1</dt>
+          <dd>Descripción del Elemento 1</dd>
+          <dt>Ejemplo 2</dt>
+          <dd>Descripción del Elemento 2</dd>
+          <dt>Ejemplo 3</dt>
+          <dd>Descripción del Elemento 3</dd>
+        </dl>
+      </article>
+    </section>
+    
+    <hr>
+
+    <section>
+      <h2>Enlaces</h2>
+
+      <a href="https://htmlreference.io/" target="_blank" title="Este enlace va a html reference">Enlace a una web</a>
+      <br>
+      <a href="https://htmlreference.io/element/a/" target="_blank" rel="noreferrer nofollow">Enlace a un directorio</a>
+
+      <article>
+        <h3>Enlaces a otro documento HTML</h3>
+        <a href="documento.html">Enlace a un documento</a>
+        <br>
+        <a href="documento.html#resumen">Enlace a una sección del documento</a>
+      </article>
+
+      <article>
+        <h3>Enlace a un archivo</h3>
+        <a href="imagen.png">Enlace a una imagen</a>
+        <br>
+        <a href="video.mp3">Enlace a un video</a>
+      </article>
+
+      <article>
+        <h3>Enlaces con imágenes</h3>
+        <a href="https://blog.ida.cl/wp-content/uploads/sites/5/2020/04/tamano-redes-blog-655x470.png" target="_blank" rel="noreferrer nofollow"><img src="https://blog.ida.cl/wp-content/uploads/sites/5/2020/04/tamano-redes-blog-655x470.png" alt="imagen" width="100" height="100"></a>
+      </article>
+
+      <article>
+        <h3>Protocolos en la URL del enlace</h3>
+
+        <!-- El protocolo mailto es un protocolo de correo electrónico. -->
+        <a href="mailto:usuario@dominio.com?subject=Tema%20del%20mensaje">Enviar email a usuario@dominio.com</a>
+        <br>
+         <!-- Whatsapp link protocol -->
+         <a href="https://wa.me/0000000000000?text=tu%20Mensaje%20De%20Texto" target="_blank">Enviar Whatsapp</a>
+        <br>
+         <!-- Tel link protocol -->
+         <a href="tel:+1234567890">Llámame</a>
+         <!-- Importante: %20 brinda un espacio en los mensajes predefinidos de los protocolos -->
+      </article>
+
+      <article>
+        <h3>El elemento link</h3>
+        <!-- <link rel="relacion" href="destino" rev="relacion-inversa"> -->
+        <!-- Importante: link nunca va en body  -->
+      </article>
+    </section>
+    <hr>
+
+    <section>
+      <h2>Tablas</h2>
+
+      <article>
+        <h3>Básicas</h3>
+        <table 
+          border
+          align="center"
+          cellpadding="10"
+          cellspacing="15"
+          bgcolor="#808080" 
+        >
+        <!-- elemento que representa las tablas -->
+          <tr>
+            <!-- elemento que representa una fila de la tabla -->
+            <td>Fila 1 Columna 1 Celda 1</td>
+            <!-- elemento que representa una celda de la tabla -->
+            <td>Fila 1 Columna 2 Celda 2</td>
+            <td>Fila 1 Columna 3 Celda 3</td>
+          </tr>
+          <tr>
+            <td>Fila 2 Columna 1 Celda 1</td>
+            <td>Fila 2 Columna 2 Celda 2</td>
+            <td>Fila 2 Columna 3 Celda 3</td>
+          </tr>
+        </table>
+      </article>
+      <article>
+        <h3>Agregando título y Cabecera</h3>
+        <table border>
+          <caption>
+            Mi tabla
+          </caption>
+          <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+          </tr>
+          <tr>
+            <td>Fila 1 Columna 1 Celda 1</td>
+            <td>Fila 1 Columna 2 Celda 2</td>
+            <td>Fila 1 Columna 3 Celda 3</td>
+          </tr>
+          <tr>
+            <td>Fila 2 Columna 1 Celda 1</td>
+            <td>Fila 2 Columna 2 Celda 2</td>
+            <td>Fila 2 Columna 3 Celda 3</td>
+          </tr>
+        </table>
+      </article>
+      <article>
+        <h3>Agrupando Celdas</h3>
+        <table border>
+          <tr>
+            <td colspan="5" align="center">Mis Gastos</td>
+          </tr>
+          <tr>
+            <td colspan="2">Mayo</td>
+            <td colspan="2">Junio</td>
+            <td>Total</td>
+          </tr>
+          <tr>
+            <td>Ingresos</td>
+            <td>Gastos</td>
+            <td>Ingresos</td>
+            <td>Gastos</td>
+            <td rowspan="2">950usd</td>
+          </tr>
+          <tr>
+            <td>250usd</td>
+            <td>100usd</td>
+            <td>400usd</td>
+            <td>200usd</td>
+          </tr>
+        </table>
+      </article>
+      <article>
+        <h3>Grupos de Filas</h3>
+        <table border>
+          <thead>
+            <tr>
+              <td>Mes</td>
+              <td>Enero</td>
+              <td>Febrero</td>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <td>Gas</td>
+              <td>5</td>
+              <td>10</td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <td>Total</td>
+              <td>15</td>
+              <td>15</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Contenido Embebido</h2>
+      <article>
+        <h3>Imágenes</h3>
+        <figure>
+          <img src="bg.png" alt="Imagen del logo HTML con un chico y su laptop" width="500" loading="lazy">
+          <figcaption>Mi imagen background en la misma carpeta</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/img/bg.png" alt="Imagen del logo HTML con un chico y su laptop" width="500" >
+          <figcaption>Mi imagen background en otro directorio</figcaption>
+        </figure>
+      </article>
+      <article>
+        <h3>Videos</h3>
+        <!-- <video src="assets/video/video.mp4" width="500" controls poster="assets/img/cover.jpg" autoplay muted loop></video> -->
+        <video controls width="500">
+          <source src="assets/video/video.mp4" type="video/mp4">
+          <source src="assets/video/video.webm" type="video/webm">
+          <p>Su navegador no soporta videos HTML5</p>
+        </video>
+      </article>
+      <article>
+        <h3>Audios</h3>
+        <!-- <audio src="assets/audio/audio.mp3" controls autoplay loop ></audio> -->
+        <audio  controls>
+          <source src="assets/audio/audio.mp3" type="audio/mp3">
+          <source src="assets/audio/audio.ogg" type="audio/ogg">
+          <p>Tu navegador no soporta el tag audio</p>
+        </audio>
+      </article>
+    </section>
+
+    <hr>
+    <aside>
+      <!-- Aside: Contiene elementos que no son necesarios en la mayoría de las páginas -->
+    </aside>
+  </main>
+
+  <hr>
+
+  <footer>
+    <h2>Pie de página</h2>
+    <p>Este es el pie de página</p>
+    <nav>Se puede colocar también un nav</nav>
+  </footer>
+</body>
+</html>
